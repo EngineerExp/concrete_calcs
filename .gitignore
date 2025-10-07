@@ -3,4 +3,4 @@ data/*
 *.txt
 *.html
 *.xlsx
-!*.ps1
+
