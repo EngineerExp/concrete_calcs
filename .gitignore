@@ -1,5 +1,6 @@
-data/
+data/*
 *.pdf
 *.txt
 *.html
 *.xlsx
+!*.ps1
