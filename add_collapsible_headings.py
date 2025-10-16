@@ -19,15 +19,15 @@ def inject_collapsible_js(html_content, collapse_by_default=False):
     js_code = '''<style>
 .collapsible-toggle {
   display: inline-block;
-  width: 1.2em;
+  width: 2.1em;
   text-align: center;
-  margin-right: 0.4em;
+  margin-right: 0.5em;
   font-weight: bold;
   user-select: none;
 }
 .collapsible-toggle:focus { outline: 2px solid #5B9DD9; outline-offset: 2px; }
 .collapsible-wrapper {
-  margin: 0 0 0 0.8em;
+  margin: 0 0 0 0.1em;
 }
 .collapsible-heading { cursor: pointer; }
 </style>
